@@ -48,7 +48,7 @@
         "fabric": "^4.5.1",
         "file-type": "^16.5.2",
         "filesize": "^6.4.0",
-        "folder-hash": "^4.0.1",
+        "folder-hash": "^4.0.2",
         "fs-extra": "^10.0.0",
         "googleapis": "^83.0.0",
         "highlight.js": "^11.2.0",
