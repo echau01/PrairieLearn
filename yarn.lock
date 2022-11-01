@@ -948,6 +948,13 @@
   dependencies:
     "@opentelemetry/api" "^1.0.0"
 
+"@opentelemetry/api-metrics@0.32.0":
+  version "0.32.0"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/api-metrics/-/api-metrics-0.32.0.tgz#0f09f78491a4b301ddf54a8b8a38ffa99981f645"
+  integrity sha512-g1WLhpG8B6iuDyZJFRGsR+JKyZ94m5LEmY2f+duEJ9Xb4XRlLHrZvh6G34OH6GJ8iDHxfHb/sWjJ1ZpkI9yGMQ==
+  dependencies:
+    "@opentelemetry/api" "^1.0.0"
+
 "@opentelemetry/api@^1.0.0", "@opentelemetry/api@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@opentelemetry/api/-/api-1.1.0.tgz#563539048255bbe1a5f4f586a4a10a1bb737f44a"
@@ -997,14 +1004,14 @@
     "@opentelemetry/sdk-metrics-base" "0.26.0"
     "@opentelemetry/sdk-trace-base" "1.0.0"
 
-"@opentelemetry/instrumentation-aws-sdk@^0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation-aws-sdk/-/instrumentation-aws-sdk-0.8.0.tgz#503fbde4b33e5703b38cff20c1d229ec851179c2"
-  integrity sha512-F29TmSsq8LWeZZXHV72b3B+QItZPVPsPx1DuQYPcKeCwAJUAg0huukXbf2U2XskA1fmw49+t9AM8fFPdytftyA==
+"@opentelemetry/instrumentation-aws-sdk@^0.32.0":
+  version "0.32.0"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation-aws-sdk/-/instrumentation-aws-sdk-0.32.0.tgz#59d753b70dfdac5ba2b4ef5cdca0b59a486ae2ae"
+  integrity sha512-44/oddekiooVMwxIYOc3ba3tvmC74PlnoKQIqhXyIu56U4g5iU5KxGyW4d4aI+JTLxZ43rch2heIhWNINyAfSw==
   dependencies:
     "@opentelemetry/core" "^1.0.0"
-    "@opentelemetry/instrumentation" "^0.29.2"
-    "@opentelemetry/propagation-utils" "^0.28.0"
+    "@opentelemetry/instrumentation" "^0.32.0"
+    "@opentelemetry/propagation-utils" "^0.29.0"
     "@opentelemetry/semantic-conventions" "^1.0.0"
 
 "@opentelemetry/instrumentation-connect@^0.29.0":
@@ -1075,10 +1082,20 @@
     semver "^7.3.2"
     shimmer "^1.2.1"
 
-"@opentelemetry/propagation-utils@^0.28.0":
-  version "0.28.0"
-  resolved "https://registry.yarnpkg.com/@opentelemetry/propagation-utils/-/propagation-utils-0.28.0.tgz#035e8311db46b712d55c0ef5fee79042f0f9d8e6"
-  integrity sha512-IsBUTz110RB75Xg6dejSD8JSyiXll81zTu/2dph5VdPMSgMOGQTYhtv0Mv1BydJh4dZpR+Z9WHTiHdkp1IQOCw==
+"@opentelemetry/instrumentation@^0.32.0":
+  version "0.32.0"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/instrumentation/-/instrumentation-0.32.0.tgz#27c5975a323a2ba83d9bf2ea8b11faaab37c5827"
+  integrity sha512-y6ADjHpkUz/v1nkyyYjsQa/zorhX+0qVGpFvXMcbjU4sHnBnC02c6wcc93sIgZfiQClIWo45TGku1KQxJ5UUbQ==
+  dependencies:
+    "@opentelemetry/api-metrics" "0.32.0"
+    require-in-the-middle "^5.0.3"
+    semver "^7.3.2"
+    shimmer "^1.2.1"
+
+"@opentelemetry/propagation-utils@^0.29.0":
+  version "0.29.0"
+  resolved "https://registry.yarnpkg.com/@opentelemetry/propagation-utils/-/propagation-utils-0.29.0.tgz#7a9f49e43a65cc80b706ec690e64c1a40cf57bd8"
+  integrity sha512-9KyRHd3/v+DhcoGDbkbSrxQlDRhTcGwiXUvgjjWkCmmzQ4Z8G5WHgXxoGBe6crcamGk9X+SyKtePkq9dYG2eaA==
 
 "@opentelemetry/propagator-b3@1.3.1":
   version "1.3.1"
