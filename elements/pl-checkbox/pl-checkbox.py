@@ -60,17 +60,29 @@ def prepare(element_html, data):
 
     number_answers = pl.get_integer_attrib(element, 'number-answers', len_total)
     min_correct = pl.get_integer_attrib(element, 'min-correct', MIN_CORRECT_DEFAULT)
-    max_correct = pl.get_integer_attrib(element, 'max-correct', len(correct_answers))
+    max_correct = pl.get_integer_attrib(element, 'max-correct', len_correct)
 
     if min_correct < 1:
-        raise ValueError('The attribute min-correct is {:d} but must be at least 1'.format(min_correct))
+        raise ValueError(f'The attribute min-correct is {min_correct} but must be at least 1')
+    if number_answers < 1:
+        raise ValueError(f'The attribute number-answers is {number_answers} but must be at least 1')
+    if number_answers > len_total:
+        raise ValueError(f'number-answers ({number_answers}) is greater than the total number of available options ({len_total})')
+    if min_correct > number_answers:
+        raise ValueError(f'min-correct ({min_correct}) is greater than the number of answers to be displayed ({number_answers})')
+    if max_correct > number_answers:
+        raise ValueError(f'max-correct ({max_correct}) is greater than the number of answers to be displayed ({number_answers})')
+    if min_correct > len_correct:
+        raise ValueError(f'min-correct ({min_correct}) is greater than the total number of correct options ({len_correct})')
+    if max_correct > len_correct:
+        raise ValueError(f'max-correct ({max_correct}) is greater than the total number of correct options ({len_correct})')
+    
+    if max_correct > min_correct + len_incorrect:
+        
 
-    # FIXME: why enforce a maximum number of options?
-    max_answers = 26  # will not display more than 26 checkbox answers
+    min_correct = max(number_answers - len_incorrect, min_correct)
+    max_correct = max(min_correct, max_correct)
 
-    number_answers = max(0, min(len_total, min(max_answers, number_answers)))
-    min_correct = min(len_correct, min(number_answers, max(0, max(number_answers - len_incorrect, min_correct))))
-    max_correct = min(len_correct, min(number_answers, max(min_correct, max_correct)))
     if not (0 <= min_correct <= max_correct <= len_correct):
         raise ValueError('INTERNAL ERROR: correct number: (%d, %d, %d, %d)' % (min_correct, max_correct, len_correct, len_incorrect))
     min_incorrect = number_answers - max_correct
@@ -88,7 +100,7 @@ def prepare(element_html, data):
     if min_select > max_select:
         raise ValueError(f'min-select ({min_select}) is greater than max-select ({max_select})')
     if min_select > number_answers:
-        raise ValueError(f'min-select ({min_select}) is greater than the total number of answers to display ({number_answers})')
+        raise ValueError(f'min-select ({min_select}) is greater than the total number of answers to be displayed ({number_answers})')
     if min_select > min_correct:
         raise ValueError(f'min-select ({min_select}) is greater than the minimum possible number of correct answers ({min_correct})')
     if max_select < max_correct:
