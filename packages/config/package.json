@@ -25,6 +25,6 @@
     "mocha": "^10.4.0",
     "tmp-promise": "^3.0.3",
     "tsx": "^4.7.2",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.5"
   }
 }
