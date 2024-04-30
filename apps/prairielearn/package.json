@@ -20,7 +20,7 @@
     "@aws-sdk/client-sqs": "^3.540.0",
     "@aws-sdk/credential-providers": "^3.540.0",
     "@aws-sdk/lib-storage": "^3.540.0",
-    "@fortawesome/fontawesome-free": "^6.5.1",
+    "@fortawesome/fontawesome-free": "^6.5.2",
     "@node-saml/passport-saml": "^4.0.4",
     "@octokit/rest": "^20.0.2",
     "@prairielearn/aws": "workspace:^",
