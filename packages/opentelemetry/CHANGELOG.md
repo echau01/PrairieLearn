@@ -1,5 +1,11 @@
 # @prairielearn/opentelemetry
 
+## 1.12.0
+
+### Minor Changes
+
+- c51f3aa: Upgrade all JavaScript dependencies; ensure packages loaded with ESM are instrumented
+
 ## 1.11.3
 
 ### Patch Changes

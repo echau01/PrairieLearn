@@ -1,5 +1,11 @@
 # @prairielearn/migrations
 
+## 3.0.0
+
+### Major Changes
+
+- 077a623: Convert to native ESM
+
 ## 2.1.0
 
 ### Minor Changes
