@@ -2568,17 +2568,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opentelemetry/instrumentation-connect@npm:^0.36.0":
-  version: 0.36.0
-  resolution: "@opentelemetry/instrumentation-connect@npm:0.36.0"
+"@opentelemetry/instrumentation-connect@npm:^0.36.1":
+  version: 0.36.1
+  resolution: "@opentelemetry/instrumentation-connect@npm:0.36.1"
   dependencies:
     "@opentelemetry/core": ^1.8.0
     "@opentelemetry/instrumentation": ^0.51.0
-    "@opentelemetry/semantic-conventions": ^1.0.0
+    "@opentelemetry/semantic-conventions": ^1.22.0
     "@types/connect": 3.4.36
   peerDependencies:
     "@opentelemetry/api": ^1.3.0
-  checksum: c470cfa1dc1815ff05f9e81df870f72b943dfad22e2f1a8c0e1a053feb95cbf66a307b5c4b22fc2d89e7b0ae5ca1b700a0ac28b0cb61ed5fe20a215caa84d5cb
+  checksum: df93ee52290cf09ec0d426761f03f341648c3130c55d885c015887d5983681dc70947f16117c6c800ff0d1c727d46e381eeadc7da54bf615d8aaab260cd84272
   languageName: node
   linkType: hard
 
@@ -2595,16 +2595,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opentelemetry/instrumentation-express@npm:^0.38.0":
-  version: 0.38.0
-  resolution: "@opentelemetry/instrumentation-express@npm:0.38.0"
+"@opentelemetry/instrumentation-express@npm:^0.39.0":
+  version: 0.39.0
+  resolution: "@opentelemetry/instrumentation-express@npm:0.39.0"
   dependencies:
     "@opentelemetry/core": ^1.8.0
     "@opentelemetry/instrumentation": ^0.51.0
     "@opentelemetry/semantic-conventions": ^1.22.0
   peerDependencies:
     "@opentelemetry/api": ^1.3.0
-  checksum: ab93be9dc9806c9aff4452d11d4ac596ad369ad62bb107377d9ddc9314166304590df949c9da19c4e9fc1d420ea164a9910dccabb46673068831b8c83a6db706
+  checksum: 8340ab2fff48f27de4d7c57ae51dd228115e76c65a7c9aff7bcd9aa68903c3688b05f1cdc3372aeabf84dad6de764b8f115470b3c159b286db0ae7277f167168
   languageName: node
   linkType: hard
 
@@ -2771,16 +2771,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opentelemetry/resource-detector-aws@npm:^1.4.2":
-  version: 1.4.2
-  resolution: "@opentelemetry/resource-detector-aws@npm:1.4.2"
+"@opentelemetry/resource-detector-aws@npm:^1.5.0":
+  version: 1.5.0
+  resolution: "@opentelemetry/resource-detector-aws@npm:1.5.0"
   dependencies:
     "@opentelemetry/core": ^1.0.0
     "@opentelemetry/resources": ^1.0.0
     "@opentelemetry/semantic-conventions": ^1.22.0
   peerDependencies:
     "@opentelemetry/api": ^1.0.0
-  checksum: 66a7c90f037bccb0a754701182b6ec89982f8ba1d46bc07c0b4db6debe69dc504482fe65bdb3867c8ddf8f18e899a657cbb0c6bf5e677becb2ec08be8c3538f1
+  checksum: 5cceba973e67e661ca700e2bed6e41d36ba307508647ca0d90693d30f0e94d204c3035eb10c6cb39ff89748e2d22da09b6b33d340a5b84951b734bc17f6ac7e6
   languageName: node
   linkType: hard
 
@@ -3242,14 +3242,14 @@ __metadata:
     "@opentelemetry/exporter-trace-otlp-http": ^0.51.1
     "@opentelemetry/instrumentation": ^0.51.1
     "@opentelemetry/instrumentation-aws-sdk": ^0.41.0
-    "@opentelemetry/instrumentation-connect": ^0.36.0
+    "@opentelemetry/instrumentation-connect": ^0.36.1
     "@opentelemetry/instrumentation-dns": ^0.36.1
-    "@opentelemetry/instrumentation-express": ^0.38.0
+    "@opentelemetry/instrumentation-express": ^0.39.0
     "@opentelemetry/instrumentation-http": ^0.51.1
     "@opentelemetry/instrumentation-ioredis": ^0.40.0
     "@opentelemetry/instrumentation-pg": ^0.41.0
     "@opentelemetry/instrumentation-redis": ^0.39.1
-    "@opentelemetry/resource-detector-aws": ^1.4.2
+    "@opentelemetry/resource-detector-aws": ^1.5.0
     "@opentelemetry/resources": ^1.24.1
     "@opentelemetry/sdk-metrics": ^1.24.1
     "@opentelemetry/sdk-node": ^0.51.1
