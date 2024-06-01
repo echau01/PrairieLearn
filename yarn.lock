@@ -3493,7 +3493,7 @@ __metadata:
     jju: ^1.4.0
     jose: ^5.2.3
     jquery: ^3.7.1
-    jquery-ui-dist: ^1.13.2
+    jquery-ui-dist: ^1.13.3
     jquery-ui-touch-punch: ^0.2.3
     js-cookie: ^3.0.5
     jsdom: ^24.0.0
@@ -11293,12 +11293,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jquery-ui-dist@npm:^1.13.2":
-  version: 1.13.2
-  resolution: "jquery-ui-dist@npm:1.13.2"
+"jquery-ui-dist@npm:^1.13.3":
+  version: 1.13.3
+  resolution: "jquery-ui-dist@npm:1.13.3"
   dependencies:
     jquery: ">=1.8.0 <4.0.0"
-  checksum: 4f3a3a2ff8ff659aaa48cfce11dc06bbd396676c175dd8429a0aaa327fc055855ab2159624d9493cb236b28a9c669b26d1de8215415ddcf068191add4740729d
+  checksum: 9aec55810d27d3a9ec71a865188c8777f8b9982ece54d377a1d162e37c146922cea84eadbd72df7cbe9b3bc7d34308ce8a56f54f0fb152fa07aef6fa0a6f81bc
   languageName: node
   linkType: hard
 
