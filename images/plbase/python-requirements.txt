@@ -3,7 +3,7 @@ chevron==0.14.0
 coloraide==3.3.1
 Faker==25.0.0
 lxml==5.2.1
-matplotlib==3.8.4
+matplotlib==3.9.0
 networkx==3.3
 nltk==3.8.1
 numpy==1.26.4
