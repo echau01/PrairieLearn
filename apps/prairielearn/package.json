@@ -168,7 +168,7 @@
     "stripe": "^14.23.0",
     "tablesorter": "^2.31.3",
     "tar": "^6.2.1",
-    "three": "0.160.1",
+    "three": "0.165.0",
     "tmp": "^0.2.3",
     "tmp-promise": "^3.0.3",
     "tzientist": "^3.2.0",
