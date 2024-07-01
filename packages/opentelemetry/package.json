@@ -13,7 +13,7 @@
     "test": "mocha src/**/*.test.ts"
   },
   "dependencies": {
-    "@grpc/grpc-js": "^1.10.4",
+    "@grpc/grpc-js": "^1.10.10",
     "@opentelemetry/api": "^1.8.0",
     "@opentelemetry/core": "^1.24.1",
     "@opentelemetry/exporter-metrics-otlp-grpc": "^0.51.1",
