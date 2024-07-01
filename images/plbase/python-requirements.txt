@@ -7,7 +7,7 @@ matplotlib==3.8.4
 networkx==3.3
 nltk==3.8.1
 numpy==1.26.4
-openpyxl==3.1.2
+openpyxl==3.1.5
 pandas-stubs==2.2.1.240316
 pandas==2.2.2
 Pint==0.23
