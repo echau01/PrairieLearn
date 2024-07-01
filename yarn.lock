@@ -3491,7 +3491,7 @@ __metadata:
     ioredis: ^5.3.2
     isbinaryfile: ^5.0.2
     jju: ^1.4.0
-    jose: ^5.2.3
+    jose: ^5.6.2
     jquery: ^3.7.1
     jquery-ui-dist: ^1.13.2
     jquery-ui-touch-punch: ^0.2.3
@@ -11279,10 +11279,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jose@npm:^5.2.3":
-  version: 5.2.3
-  resolution: "jose@npm:5.2.3"
-  checksum: 7c41025d3e449f654a4cbf0e18e3a4a3bcb74b242d716e2e665a20be5c93b3f68421032a4531fd984d4bad6aa225c7c517da18da6e0cf778b104cd7e30bde5de
+"jose@npm:^5.6.2":
+  version: 5.6.2
+  resolution: "jose@npm:5.6.2"
+  checksum: 53201bc1b623561e78287a867b84edf4c73014023da1f48508cba4fcd0e808adcbc3fab5d6835c642a1bd43ad867e965a1a62a547f7ec661a98b780ac0a3c96b
   languageName: node
   linkType: hard
 
